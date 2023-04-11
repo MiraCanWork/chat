@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: var(--header-height);
+  padding: 0 3rem;
+  color: var(--white);
+  background: var(--secondary-bg-color);
+}
+
+.header a {
+  color: #FFFFFF;
+}
+
+.header__userInfo {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.header__button {
+  padding: .5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .header {
+    padding: 0 1.5rem;
+  }
+}
